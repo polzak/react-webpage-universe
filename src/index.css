@@ -4,3 +4,90 @@ body {
   font-family: sans-serif;
 }
 
+.header {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    border-bottom: 2px solid darkblue;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    border-top: 2px solid darkblue;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+
+.img-fit {
+    margin: 0 auto;
+    background: url('./images/earth.jpg') no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    padding: 10px 10px;
+}
+
+.sun {
+    background-color: coral;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.moon {
+    background-color: darkorange;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.earth {
+    background-color: peru;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .img-fit {
+        min-height: 800px;
+        position: relative;
+    }
+
+    .img-fit h3 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-size: 6rem;
+    }
+
+    .img-fit h4 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        font-size: 6rem;
+    }
+
+    .sun {
+        width: 33.33%;
+        display: inline-block;
+        text-align: center;
+        padding: 0 0;
+
+    }
+
+    .moon {
+        width: 33.33%;
+        display: inline-block;
+        text-align: center;
+        padding: 0 0;
+    }
+
+    .earth {
+        width: 33.33%;
+        display: inline-block;
+        text-align: center;
+        padding: 0 0;
+    }
+}
